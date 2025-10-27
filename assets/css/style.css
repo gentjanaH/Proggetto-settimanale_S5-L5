@@ -494,12 +494,15 @@ hr {
 
 
     #M {
-        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        width: auto;
 
     }
 
 
     #M svg {
+        display: block;
         width: auto;
         height: auto;
 
@@ -508,6 +511,7 @@ hr {
 
     #header-section-2 div:first-of-type {
         margin-left: 9em;
+        width: auto;
     }
 
     #section-logo {
